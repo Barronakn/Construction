@@ -1,0 +1,49 @@
+@media screen and (max-width:1200px) {
+    #contact .info {
+        flex-direction: column;
+    }
+
+    #contact .info .flex:last-child {
+        width: 100%;
+    }
+
+    #contact form .w-80 {
+        width: 420px;
+    }
+
+    #contact form .flex {
+        flex-direction: column;
+    }
+
+    #contact form .flex .w-input {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    #contact form .w-80 {
+        width: 100%;
+    }
+
+    #contact form .flex {
+        flex-direction: column;
+    }
+
+    #contact form .flex .w-input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #contact.px-32 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .w-contact {
+        width: 100%;
+    }
+}

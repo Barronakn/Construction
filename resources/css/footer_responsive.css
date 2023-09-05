@@ -1,0 +1,31 @@
+@media screen and (max-width:1024px)
+{
+    footer .top
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    footer .top .w-footer
+    {
+        width: 100%;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    footer .bottom
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

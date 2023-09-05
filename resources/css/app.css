@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.gray-trans {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text-yellow {
+    color: rgb(255, 196, 0);
+}
+
+.bg-yellow {
+    background-color: rgb(255, 196, 0);
+}
+
+.bg-yellow_hover:hover {
+    background-color: rgb(255, 196, 0);
+}
+
+ul li a:hover,
+.link:hover {
+    color: rgb(255, 196, 0);
+}
+
+.bg-header {
+    background-image: url("../../public/assets/slide-img1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.text-7_5xl {
+    font-size: 85px;
+}
+
+.rounded-4xl {
+    border-radius: 50px;
+}
+
+.bg-about {
+    background-image: url("../../public/assets/construction01.png");
+    background-repeat: no-repeat;
+    background-size: 230%;
+}
+
+.dimension_1 {
+    width: 707px;
+    height: 350px;
+}
+
+
+.dimension_2 {
+    width: 350px;
+    height: 350px;
+}
+
+.bg-price {
+    background-image: url("../../public/assets/testimo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.height_1 {
+    height: 500px;
+}
+
+.border-b-gray {
+    border: none;
+    border-bottom: 2px solid rgb(242, 242, 242);
+    padding-left: 0;
+}
+
+.bg-footer {
+    background-image: url("../../public/assets/footer-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.active {
+    color: rgb(255, 196, 0);
+}
+
+.none {
+    display: none;
+}
+
+.rounded-5xl {
+    border-radius: 50%;
+}

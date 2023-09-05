@@ -1,0 +1,30 @@
+@media screen and (max-width:1200px)
+{
+    #services .flex:last-child
+    {
+        flex-direction: column;
+    }
+
+    .bg-gray-900.px-32,
+    .bg-gray-800.px-32
+    {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    #services .flex:first-child
+    {
+        flex-direction: column;
+    }
+
+    #services .flex:first-child.gap-32,
+    #services .flex:first-child .gap-32
+    {
+        gap: 35px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}

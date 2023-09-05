@@ -1,0 +1,80 @@
+@media screen and (max-width:1024px)
+{
+    .menu
+    {
+        justify-content: space-around;
+    }
+
+    .navbar
+    {
+        display: none;
+    }
+
+    .navbar .flex
+    {
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #000;
+        justify-content: center;
+        align-items: center;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .menu-icon
+    {
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    header .text-7_5xl
+    {
+        font-size: 35px;
+    }
+}
+
+
+@media screen and (max-width:425px)
+{
+    .menu .logo img,
+    .menu-icon img
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+    .text-7_5xl {
+        font-size: 85px;
+    }
+
+    .menu .logo .text-2xl
+    {
+        font-size: 20px;
+    }
+
+    nav ul li a
+    {
+        font-size: 12px;
+    }
+
+    .text-lg,
+    header a
+    {
+        font-size: 15px;
+    }
+
+    .text-lg
+    {
+        width: 100%;
+    }
+
+    header.px-32
+    {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
