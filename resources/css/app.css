@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.content {
+    max-width: 1700px !important;
+    margin: 0 auto;
+}
 
 .gray-trans {
     background-color: rgba(0, 0, 0, 0.2);
